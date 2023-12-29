@@ -790,7 +790,7 @@ img {
           flex-direction: column;
 }
 
-.form__input,
+/* .form__input,
 .form__textarea {
   display: block;
   padding: 14px 24px;
@@ -805,6 +805,22 @@ img {
   -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+} */
+
+.form__input,
+.form__textarea {
+  display: block;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 16px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color-cacaca);
+  background-color: var(--color-414141);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-appearance: none; /* Добавьте вендорный префикс */
 }
 
 .form__input {
@@ -827,7 +843,9 @@ img {
 
 .form__textarea {
   min-height: 150px;
+  height: auto;
   resize: none;
+  -webkit-appearance: none;
 }
 
 .form__label-textarea {
