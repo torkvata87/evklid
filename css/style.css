@@ -833,7 +833,12 @@ img {
 .form__textarea:hover,
 .form__input:active,
 .form__textarea:active {
-  background-color: var(--color-666);
+  background-color: var(--color-666); 
+}
+
+.form__input:focus-visible,
+.form__textarea:focus-visible {
+  -webkit-appearance: none;
 }
 
 .form__input:active,
