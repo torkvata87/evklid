@@ -4,6 +4,7 @@ html {
 }
 
 input, input:before, input:after {
+  -webkit-user-select: none;
   -webkit-user-select: initial;
   -khtml-user-select: initial;
   -moz-user-select: initial;
