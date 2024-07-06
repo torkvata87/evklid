@@ -28,6 +28,8 @@
     https://github.com/torkvata87/evklid.git
     ```
 2. Откройте `index.html` в вашем браузере.
+3. Посмотреть можно здесь:
+   ([https://github.com/torkvata87/evklid/](https://torkvata87.github.io/evklid/))
 
 ## Использование
 
