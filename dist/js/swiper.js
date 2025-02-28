@@ -1,0 +1,1 @@
+var swiperSettings={loop:!0,pagination:{el:".swiper-pagination",clickable:!0},mousewheel:{invert:!0},keyboard:{enabled:!0,onlyInViewport:!1},autoplay:{delay:5e3},speed:3e3,effect:"fade",fadeEffect:{crossFade:!0}},swiper=new Swiper(".swiper",swiperSettings);
