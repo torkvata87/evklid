@@ -33,8 +33,12 @@
     ```
     https://github.com/torkvata87/evklid.git
     ```
-2. Откройте `index.html` в вашем браузере.
-3. Посмотреть можно здесь:
+2. Запустите команду Gulp для сборки проекта:
+    ```
+    gulp build
+    ```
+3. Откройте `index.html` из директории `dist` в вашем браузере.
+4. Посмотреть можно здесь:
    ([https://github.com/torkvata87/evklid/](https://torkvata87.github.io/evklid/))
 
 ## Использование
@@ -55,3 +59,4 @@
 
 - **Email:** torkvata87@gmail.com
 - **GitHub:** [github.com/torkvata87](https://github.com/torkvata87)
+- **Telegram** @torkvata87
